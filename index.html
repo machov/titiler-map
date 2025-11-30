@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Costa Rica Landslide Risk Analysis</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    
+    <!-- MapLibre GL JS -->
+    <script src='https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.js'></script>
+    <link href='https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.css' rel='stylesheet' />
+    
+    <!-- React and ReactDOM -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    
+    <!-- Babel for JSX transformation -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+
+    <!-- Load all the modular components inline (works in browser!) -->
+    <script type="text/babel" src="./src/config/layers.js"></script>
+    <script type="text/babel" src="./src/components/Legend.js"></script>
+    <script type="text/babel" src="./src/components/LayerControls.js"></script>
+    <script type="text/babel" src="./src/components/MapComponent.js"></script>
+    <script type="text/babel" src="./src/styles.js"></script>
+    <script type="text/babel" src="./src/App.js"></script>
+    
+    <!-- Render the app -->
+    <script type="text/babel">
+        // Apply styles
+        const styleElement = document.createElement('style');
+        styleElement.textContent = styles;
+        document.head.appendChild(styleElement);
+        
+        // Render the app
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(<App />);
+    </script>
+</body>
+</html>
