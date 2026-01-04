@@ -22,6 +22,9 @@ function App() {
             <header className="header">
                 <h1>🗺️ San Jose Landslide Risk Analysis</h1>
                 <p>Side-by-side comparison of Population Density, Elevation, and Total Risk</p>
+                <p style={{ fontSize: '12px', color: '#ffffff', marginTop: '5px' }}>
+                    Part of <a href="https://30daymapchallenge.com/" target="_blank" rel="noopener noreferrer" style={{ color: '#ffffff', textDecoration: 'none' }}>#30DayMapChallenge</a> - Raster category
+                </p>
                 <div style={{ display: 'flex', gap: '10px', marginTop: '10px', justifyContent: 'center' }}>
                     <button 
                         className="info-button"
