@@ -16,7 +16,7 @@ function App() {
             {/* Header */}
             <header className="header">
                 <h1>🗺️ Costa Rica Landslide Risk Analysis</h1>
-                <p>Side-by-side comparison of Population Density, Elevation, and Total Risk</p>
+                <p>Side-by-side comparison of Population Density, Landslide Probability, and Total Risk</p>
             </header>
             
             {/* Three Maps */}
@@ -24,8 +24,8 @@ function App() {
                 {/* Map 1: Population Density */}
                 <MapComponent config={LAYERS_CONFIG.population} />
                 
-                {/* Map 2: Elevation */}
-                <MapComponent config={LAYERS_CONFIG.elevation} />
+                {/* Map 2: Landslide Probability */}
+                <MapComponent config={LAYERS_CONFIG.landslide_prob_bigcities_2020} />
                 
                 {/* Map 3: Total Risk */}
                 <MapComponent config={LAYERS_CONFIG.risk} />
