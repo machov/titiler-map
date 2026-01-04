@@ -1,7 +1,7 @@
 {
   "name": "landslide-risk-map",
   "version": "1.0.0",
-  "description": "Costa Rica Landslide Risk Analysis - React + MapLibre",
+  "description": "San Jose Landslide Risk Analysis - React + MapLibre",
   "scripts": {
     "start": "python3 -m http.server 8081",
     "dev": "python3 -m http.server 8081",

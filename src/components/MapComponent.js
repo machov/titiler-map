@@ -31,7 +31,7 @@ function MapComponent({ config }) {
     useEffect(() => {
         if (map.current) return; // Already initialized
 
-        // Create the map
+        // Create the map with zoom restrictions
         map.current = new maplibregl.Map({
             container: mapContainer.current,
             style: {
@@ -51,7 +51,13 @@ function MapComponent({ config }) {
                 }]
             },
             center: MAP_CENTER,
-            zoom: MAP_ZOOM
+            zoom: MAP_ZOOM,
+            minZoom: MAP_ZOOM - 0.25,  // Very minimal zoom out (quarter level only)
+            maxZoom: MAP_ZOOM + 2,     // Allow zoom in up to 2 levels
+            maxBounds: [
+                [MAP_CENTER[0] - 0.08, MAP_CENTER[1] - 0.08],  // Southwest bound (tighter)
+                [MAP_CENTER[0] + 0.08, MAP_CENTER[1] + 0.08]   // Northeast bound (tighter)
+            ]
         });
 
         // Add navigation controls (zoom buttons)
