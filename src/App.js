@@ -25,6 +25,9 @@ function App() {
                 <p style={{ fontSize: '12px', color: '#ffffff', marginTop: '5px' }}>
                     Part of <a href="https://30daymapchallenge.com/" target="_blank" rel="noopener noreferrer" style={{ color: '#ffffff', textDecoration: 'none' }}>#30DayMapChallenge</a> - Raster category
                 </p>
+                <p style={{ fontSize: '12px', color: '#ffffff', marginTop: '5px' }}>
+                    Follow me on <a href="https://github.com/machov" target="_blank" rel="noopener noreferrer" style={{ color: '#ffffff', textDecoration: 'none', fontWeight: 'bold' }}>GitHub @machov</a>
+                </p>
                 <div style={{ display: 'flex', gap: '10px', marginTop: '10px', justifyContent: 'center' }}>
                     <button 
                         className="info-button"
@@ -101,7 +104,7 @@ function App() {
                     <div style={{ color: '#ffffff', fontSize: '16px', lineHeight: '1.8' }}>
                         <div style={{ backgroundColor: '#2d2d2d', padding: '20px', borderRadius: '8px', marginBottom: '20px', border: '2px solid #ff6f00' }}>
                             <h3 style={{ margin: '0 0 15px 0', color: '#ff6f00', fontSize: '22px' }}>
-                                🌊 Why River Valleys Show the Highest Risk (Dark Red Areas)
+                                🌊 Why River Valleys Show the Highest Risk (Dark Areas)
                             </h3>
                             <p style={{ margin: '10px 0', fontSize: '17px', fontWeight: 'bold', color: '#ffeb3b' }}>
                                 The darkest red concentrations on this map are NOT random—they follow a clear pattern along rivers and valleys. Here's the science behind it:
@@ -190,7 +193,7 @@ function App() {
                         <div style={{ backgroundColor: '#424242', padding: '20px', borderRadius: '8px', marginTop: '20px', border: '2px solid #ffa726' }}>
                             <h4 style={{ margin: '0 0 10px 0', color: '#ffa726', fontSize: '18px' }}>🏚️ Land Occupation Context</h4>
                             <p style={{ margin: '10px 0', fontSize: '16px', lineHeight: '1.7' }}>
-                                <strong style={{ color: '#ffeb3b' }}>Important:</strong> Many of the highest-risk areas (dark red zones) correspond to <strong style={{ color: '#ff9800' }}>densely populated, low-income neighborhoods</strong> built on:
+                                <strong style={{ color: '#ffeb3b' }}>Important:</strong> Many of the highest-risk areas (dark zones) correspond to <strong style={{ color: '#ff9800' }}>densely populated, low-income neighborhoods</strong> built on:
                             </p>
                             <ul style={{ margin: '10px 0', paddingLeft: '20px', fontSize: '15px', lineHeight: '1.7' }}>
                                 <li><strong>Squatter lands</strong> - Informal settlements established without legal title</li>
