@@ -17,8 +17,10 @@ const TITILER_BASE_URL = 'https://titiler-service-774201305430.us-central1.run.a
 const GCS_BUCKET_URL = 'https://storage.googleapis.com/macho-raster/risk_layers/cr_2020.tif';
 
 // Build the tile URL for MapLibre
+// cr_2020.tif is an RGB visualization (uint8, 3 bands), so we need to serve it as-is
+// without applying colormaps or rescaling
 const buildTileUrl = () => {
-    return `${TITILER_BASE_URL}/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?url=${GCS_BUCKET_URL}`;
+    return `${TITILER_BASE_URL}/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?url=${GCS_BUCKET_URL}&return_mask=false`;
 };
 
 // Layer configurations
