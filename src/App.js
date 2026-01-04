@@ -185,6 +185,23 @@ function App() {
                                 The rivers that historically attracted settlement now mark the zones of greatest hazard.
                             </p>
                         </div>
+
+                        {/* Land Occupation Context */}
+                        <div style={{ backgroundColor: '#424242', padding: '20px', borderRadius: '8px', marginTop: '20px', border: '2px solid #ffa726' }}>
+                            <h4 style={{ margin: '0 0 10px 0', color: '#ffa726', fontSize: '18px' }}>🏚️ Land Occupation Context</h4>
+                            <p style={{ margin: '10px 0', fontSize: '16px', lineHeight: '1.7' }}>
+                                <strong style={{ color: '#ffeb3b' }}>Important:</strong> Many of the highest-risk areas (dark red zones) correspond to <strong style={{ color: '#ff9800' }}>densely populated, low-income neighborhoods</strong> built on:
+                            </p>
+                            <ul style={{ margin: '10px 0', paddingLeft: '20px', fontSize: '15px', lineHeight: '1.7' }}>
+                                <li><strong>Squatter lands</strong> - Informal settlements established without legal title</li>
+                                <li><strong>Abandoned government land</strong> - Unused public parcels occupied over time</li>
+                                <li><strong>Old landfill areas</strong> - Former waste disposal sites with unstable fill material</li>
+                            </ul>
+                            <p style={{ margin: '15px 0 0 0', fontSize: '15px', lineHeight: '1.7', fontStyle: 'italic', color: '#ffcc80' }}>
+                                These communities face compounded risk: not only from natural slope instability, but also from inadequate infrastructure, 
+                                lack of formal planning, and limited resources for disaster preparedness.
+                            </p>
+                        </div>
                     </div>
                 </div>
             )}
