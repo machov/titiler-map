@@ -264,54 +264,6 @@ function App() {
                             </ul>
                         </div>
 
-                        <div style={{ backgroundColor: '#fff8e1', padding: '15px', borderRadius: '6px', marginBottom: '15px', border: '2px solid #ff6f00' }}>
-                            <h3 style={{ margin: '0 0 10px 0', color: '#e65100', display: 'flex', alignItems: 'center' }}>
-                                🌊 <span style={{ marginLeft: '8px' }}>Why River Valleys Show Highest Risk</span>
-                            </h3>
-                            <p style={{ margin: '10px 0', fontSize: '15px', fontWeight: 'bold', color: '#bf360c' }}>
-                                The darkest red areas on the risk map concentrate around rivers and valleys. Here's why:
-                            </p>
-                            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '15px', marginTop: '15px' }}>
-                                <div style={{ backgroundColor: '#ffe0b2', padding: '12px', borderRadius: '5px', border: '1px solid #ff9800' }}>
-                                    <h4 style={{ margin: '0 0 8px 0', color: '#e65100' }}>🏘️ High Population Concentration</h4>
-                                    <ul style={{ margin: '5px 0', paddingLeft: '20px', fontSize: '14px' }}>
-                                        <li><strong>Water Access:</strong> Rivers provide drinking water and irrigation</li>
-                                        <li><strong>Fertile Land:</strong> Valley floors have nutrient-rich soil for agriculture</li>
-                                        <li><strong>Transportation:</strong> Rivers historically served as trade routes</li>
-                                        <li><strong>Flat Building Sites:</strong> Valley bottoms are easier to develop</li>
-                                        <li><strong>Result:</strong> San José grew along the río Virilla and río Torres valleys</li>
-                                    </ul>
-                                </div>
-                                <div style={{ backgroundColor: '#e1f5fe', padding: '12px', borderRadius: '5px', border: '1px solid #0288d1' }}>
-                                    <h4 style={{ margin: '0 0 8px 0', color: '#01579b' }}>⛰️ Steep Valley Slopes</h4>
-                                    <ul style={{ margin: '5px 0', paddingLeft: '20px', fontSize: '14px' }}>
-                                        <li><strong>V-Shaped Valleys:</strong> Rivers cut deep channels through mountains</li>
-                                        <li><strong>Erosion:</strong> Water undermines hillside stability</li>
-                                        <li><strong>Gravity Effect:</strong> Steep slopes = high landslide probability</li>
-                                        <li><strong>Urban Expansion:</strong> As cities grow, people build on unstable hillsides</li>
-                                        <li><strong>Result:</strong> Neighborhoods perched on steep slopes above rivers</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div style={{ backgroundColor: '#ffcdd2', padding: '12px', borderRadius: '5px', marginTop: '15px', border: '2px solid #d32f2f' }}>
-                                <h4 style={{ margin: '0 0 8px 0', color: '#b71c1c' }}>⚠️ The Perfect Storm = Maximum Risk</h4>
-                                <p style={{ margin: '5px 0', fontSize: '14px', lineHeight: '1.6' }}>
-                                    <strong>Critical Risk Areas:</strong> When dense populations (high severity) occupy steep valley slopes (high probability), 
-                                    the multiplication effect creates the <strong style={{ color: '#b71c1c' }}>highest possible risk scores (approaching 1.0)</strong>.
-                                </p>
-                                <p style={{ margin: '10px 0 5px 0', fontSize: '14px', lineHeight: '1.6' }}>
-                                    <strong>Real-World Example:</strong> In the San José metropolitan area, informal settlements often expand onto 
-                                    the steep hillsides flanking river valleys. These areas show as <strong style={{ color: '#b71c1c' }}>dark red/critical</strong> 
-                                    on the risk map because they combine:
-                                </p>
-                                <ul style={{ margin: '5px 0', paddingLeft: '25px', fontSize: '14px' }}>
-                                    <li>High population density (many people at risk)</li>
-                                    <li>Slopes exceeding 30-45° (very high landslide probability)</li>
-                                    <li>Proximity to water (additional erosion and instability)</li>
-                                </ul>
-                            </div>
-                        </div>
-
                         <div style={{ backgroundColor: '#f3e5f5', padding: '15px', borderRadius: '6px', border: '1px solid #9c27b0' }}>
                             <h3 style={{ margin: '0 0 10px 0', color: '#4a148c' }}>📊 Data Sources</h3>
                             <ul style={{ margin: '10px 0', paddingLeft: '20px' }}>
